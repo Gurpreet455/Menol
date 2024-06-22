@@ -1302,6 +1302,9 @@ color: #d0d0d0;
     .follow-cont  .follow-img {
         height: 85px;
     }
+    .hero-content {
+        max-width: 63%;
+    }
 
 }
 
