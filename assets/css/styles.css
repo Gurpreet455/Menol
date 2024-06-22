@@ -1242,6 +1242,9 @@ color: #d0d0d0;
     p.price {
         font-size: 12px;
     }
+    .prdt-img {
+        overflow: hidden;
+    }
     .cart-box {
         padding: 16px 0px 30px;
         position: static;
