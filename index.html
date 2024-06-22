@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta class="metaTagTop" property="og:image" content="" id="social-image" />
+
+    <meta property="og:type" content="website" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <body>
+    <!-- navbar -->
+     <section class="nav-content">
+      <div class="container">
+        <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#">Shop Now</a></p>
+      </div>
+     </section>
+      <nav>
+       
+          <div class="container">
+            <div class="navbar">
+              <div class="nav-logo"><a href="#">MENOL</a></div>
+                <ul class="nav-links">
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Shop">Shop</a></li>
+                    <li><a href="#Categories">Categories</a></li>
+                    <!-- <li><a href="#Orders">Orders</a></li> -->
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <div class="info-box">
+                  <div class="search">
+                    <input type="text">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                  </div>
+                  <div class="icons">
+                    <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  <span><i class="fa-solid fa-user"></i></span>
+                  </div>
+                </div>
+          <div class="burger" onclick="toggleMenu()">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+          </div>
+            </div>
+          </div>
+      </nav>
+    <!-- navbar -->
+    <!-- header -->
+    <header class="hero sectionMb" id="Home">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 hero-content">
+            <h1>
+              <span>Upto 70% off</span>Fashion Collection
+              Summer Sale</h1>
+              <p>Premium men's clothing for comfort and style. Explore our collection and elevate your wardrobe today.</p>
+              <div class="shop-now">
+                <a href="#">Shop Now</a>
+              </div>
+          </div>
+          <div class="col-6">
+            <!-- <div class="hero-img">
+              <img src="/assets/images/bg2.webp" alt="">
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+    <!-- offers -->
+     <section class="sectionMb">
+      <div class="container">
+        <div class="section-heading mlr-10">
+          <h4>Offers</h4>
+          <p>recent offers</p>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="fashion-box">
+              <div class="fashion-content">
+                <p>mega offer</p>
+                <h2>Get 65% Offer
+                  & Make New
+                  Fusion.</h2>
+                <div class="shop-now">
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+              <div class="fashion-img">
+                <img src="/assets/images/cat1.webp" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="fashion-box">
+              <div class="fashion-content">
+                <p>top offer</p>
+                <h2>Make your New
+                  Styles with Our
+                  Products</h2>
+                <div class="shop-now">
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+              <div class="fashion-img">
+                <img src="/assets/images/cat2.webp" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- offers -->
+    <!-- category -->
+     <section class="sectionMb category-cont" id="Categories">
+      <div class="container">
+        <div class="section-heading mlr-10 mb-10">
+          <h4>For you</h4>
+          <p>categories</p>
+        </div>
+        <div class="slider-container">
+          <div class="slider category-box">
+              <div class="slide">
+                 <div class="category-box">
+                  <img src="/assets/images/t-shirts.jpg" alt="">
+                  <p>T-Shirt</p>
+          </div>
+        </div>
+              <div class="slide"> <div class="category-box">
+            <img src="/assets/images/lowers.jpg" alt="">
+             <p>Lowers</p>
+          </div></div>
+              <div class="slide"> <div class="category-box">
+            <img src="/assets/images/shirts.jpg" alt="">
+             <p>Shirt</p>
+          </div></div>
+              <div class="slide"> <div class="category-box">
+            <img src="/assets/images/pants.jpg" alt="">
+             <p>Jeans</p>
+          </div></div>
+              <div class="slide"> <div class="category-box">
+            <img src="/assets/images/outerwear.jpg" alt="">
+             <p>Jackets</p>
+          </div></div>
+              <div class="slide"> <div class="category-box">
+            <img src="/assets/images/shorts.jpg" alt="">
+             <p>Shorts</p>
+          </div></div>
+          </div>
+          <button class="prev" onclick="moveSlider('prev')"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="next" onclick="moveSlider('next')"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      </div>
+     </section>
+    <!-- category -->
+    <!-- products -->
+     <section class="sectionMb" id="Shop">
+      <div class="container">
+        <div class="section-heading mlr-10 mb-10">
+          <h4>Most popular</h4>
+          <p>Our Products</p>
+        </div>
+        <div class="product-container">
+          <!-- product -->
+          <div class="product-box">
+           <div class="product-detail">
+            <div class="prdt-img"><img src="/assets/images/prdt1.jpg" alt=""></div>
+            <div class="wishlist">
+              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <div class="off-sale">
+              <span>-49%</span>
+            </div>
+           </div>
+           <div class="cart-box">
+              <p class="product-title">FUBAR</p>
+              <p class="product-dec">Men Slim Fit Solid Mandarin Shirt</p>
+               <p class="price">Rs. <del>699</del><i class="fa-solid fa-indian-rupee-sign"></i>299</p>
+              <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+             <button>add to cart</button>
+            </div>
+          </div>
+          <!-- product -->
+          <!-- product -->
+          <div class="product-box">
+           <div class="product-detail">
+            <div class="prdt-img"><img src="/assets/images/prdt2.jpg" alt=""></div>
+            <div class="wishlist">
+              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <div class="off-sale">
+              <span>-54%</span>
+            </div>
+           </div>
+           <div class="cart-box">
+              <p class="product-title">3BROS</p>
+              <p class="product-dec">Men Self Design Polo T-Shirt</p>
+               <p class="price">Rs. <del>999</del><i class="fa-solid fa-indian-rupee-sign"></i>499</p>
+              <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+             <button>add to cart</button>
+            </div>
+          </div>
+          <!-- product -->
+          <!-- product -->
+          <div class="product-box">
+           <div class="product-detail">
+            <div class="prdt-img"><img src="/assets/images/prdt3.jpg" alt=""></div>
+            <div class="wishlist">
+              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <div class="off-sale">
+              <span>-50%</span>
+            </div>
+           </div>
+           <div class="cart-box">
+              <p class="product-title">UNITED DENIM</p>
+              <p class="product-dec">Men Relaxed Fit Mid Rise Jean</p>
+               <p class="price">Rs. <del>1999</del><i class="fa-solid fa-indian-rupee-sign"></i>999</p>
+              <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+             <button>add to cart</button>
+            </div>
+          </div>
+          <!-- product -->
+          <!-- product -->
+          <div class="product-box">
+           <div class="product-detail">
+            <div class="prdt-img"><img src="/assets/images/prdt4.jpg" alt=""></div>
+            <div class="wishlist">
+              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <div class="off-sale">
+              <span>-40%</span>
+            </div>
+           </div>
+           <div class="cart-box">
+              <p class="product-title">Amogue</p>
+              <p class="product-dec">Men Pyjama</p>
+               <p class="price">Rs. <del>1299</del><i class="fa-solid fa-indian-rupee-sign"></i>599</p>
+              <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+             <button>add to cart</button>
+            </div>
+          </div>
+          <!-- product -->
+          <!-- product -->
+          <div class="product-box">
+           <div class="product-detail">
+            <div class="prdt-img"><img src="/assets/images/sale1.jpg" alt=""></div>
+            <div class="wishlist">
+              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <div class="off-sale">
+              <span>-70%</span>
+            </div>
+           </div>
+           <div class="cart-box">
+              <p class="product-title">Urban Scottish</p>
+              <p class="product-dec">Comfortable Pajama 100% Cotton</p>
+               <p class="price">Rs. <del>299</del><i class="fa-solid fa-indian-rupee-sign"></i>999</p>
+              <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+             <button>add to cart</button>
+            </div>
+          </div>
+          <!-- product -->
+          <!-- product -->
+          <div class="product-box">
+           <div class="product-detail">
+            <div class="prdt-img"><img src="/assets/images/sale2.jpg" alt=""></div>
+            <div class="wishlist">
+              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <div class="off-sale">
+              <span>-30%</span>
+            </div>
+           </div>
+           <div class="cart-box">
+              <p class="product-title">U.S. POLO ASSN.</p>
+              <p class="product-dec">Men Slim Mid Rise Jean</p>
+               <p class="price">Rs. <del>2999</del><i class="fa-solid fa-indian-rupee-sign"></i>1800</p>
+              <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+             <button>add to cart</button>
+            </div>
+          </div>
+          <!-- product -->
+        </div>
+      </div>
+     </section>
+    <!-- products -->
+    <!-- edd -->
+     <section class="edd-cit " id="About">
+      <div class="container"> 
+        
+        <div class="row">
+          <div class="col-6">
+            <div class="edd-content">
+               <div class="section-heading mb-10">
+                  <h4>About</h4>
+              </div>
+              <h3>Premium Men's Clothing: Where Quality Meets Timeless Elegance and Style</h3>
+              <p>Discover Menol, where quality craftsmanship meets modern style for the sophisticated man's wardrobe needs.</p>
+              <div class="shop-now">
+                <a href="#">Show Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="edd-img">
+              <img src="/assets/images/bg1.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- edd -->
+         <!-- beni -->
+         <section class="beni sectionMb">
+          <div class="container">
+            <div class="dflex">
+                <div class="cont-box">
+                  <div class="cont-box-img">
+                    <img src="/assets/images/quality.png" alt="">
+                  </div>
+                  <div class="cont-box-content">
+                    <h5>High Quality</h5>
+                    <p>crafted from top materials</p>
+                  </div>
+                </div>
+                <div class="cont-box">
+                  <div class="cont-box-img">
+                    <img src="/assets/images/ship.png" alt="">
+                  </div>
+                  <div class="cont-box-content">
+                    <h5>Free Shipping</h5>
+                    <p>Order over 1500</p>
+                  </div>
+                </div>
+                <div class="cont-box">
+                  <div class="cont-box-img">
+                    <img src="/assets/images/call.png" alt="">
+                  </div>
+                  <div class="cont-box-content">
+                    <h5>24 / 7 Support</h5>
+                    <p>Dedicated support</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+         </section>
+        <!-- beni -->
+   
+    <!-- clothing -->
+     <section class="sectionMb">
+      <div class="container">
+        <div class="section-heading mb-10">
+          <h4>top rated</h4>
+          <p>our quality</p>
+      </div>
+        <div class="row edd-content">
+          <div class="col-8">
+            <div class="row clothing-img">
+              <div class="col-6"><img src="/assets/images/follow3.webp" alt=""></div>
+              <div class="col-6"><img src="/assets/images/follow7.webp" alt=""></div>
+            </div>
+          </div>
+          <div class="col-4 p-30">
+            <h3>Highest Rated Picks</h3>
+            <p>Discover our top-rated men's clothing for unparalleled quality.</p>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- clothing -->
+      <!-- products -->
+      <section class="sectionMb">
+        <div class="container">
+          <div class="section-heading mlr-10 mb-10">
+            <h4>sale</h4>
+            <p>flash sale</p>
+          </div>
+          <div class="product-container">
+            <!-- product -->
+            <div class="product-box">
+             <div class="product-detail">
+              <div class="prdt-img"><img src="/assets/images/sale1.jpg" alt=""></div>
+              <div class="wishlist">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+              <div class="off-sale">
+                <span>-69%</span>
+              </div>
+             </div>
+             <div class="cart-box">
+                <p class="product-title">Chhayank</p>
+                <p class="product-dec">Men Pyjama</p>
+                 <p class="price">Rs. <del>999</del><i class="fa-solid fa-indian-rupee-sign"></i>299</p>
+                <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+               <button>add to cart</button>
+              </div>
+            </div>
+            <!-- product -->
+            <!-- product -->
+            <div class="product-box">
+             <div class="product-detail">
+              <div class="prdt-img"><img src="/assets/images/sale2.jpg" alt=""></div>
+              <div class="wishlist">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+              <div class="off-sale">
+                <span>-54%</span>
+              </div>
+             </div>
+             <div class="cart-box">
+                <p class="product-title">NAMMA OORU TREND</p>
+                <p class="product-dec">Men Slim Mid Jeans</p>
+                 <p class="price">Rs. <del>999</del><i class="fa-solid fa-indian-rupee-sign"></i>499</p>
+                <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+               <button>add to cart</button>
+              </div>
+            </div>
+            <!-- product -->
+            <!-- product -->
+            <div class="product-box">
+             <div class="product-detail">
+              <div class="prdt-img"><img src="/assets/images/sale3.jpg" alt=""></div>
+              <div class="wishlist">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+              <div class="off-sale">
+                <span>-40%</span>
+              </div>
+             </div>
+             <div class="cart-box">
+                <p class="product-title">LEVI'S</p>
+                <p class="product-dec">Men Tapered Fit Mid Rise Jean</p>
+                 <p class="price">Rs. <del>1999</del><i class="fa-solid fa-indian-rupee-sign"></i>799</p>
+                <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+               <button>add to cart</button>
+              </div>
+            </div>
+            <!-- product -->
+            <!-- product -->
+            <div class="product-box">
+             <div class="product-detail">
+              <div class="prdt-img"><img src="/assets/images/sale4.jpg" alt=""></div>
+              <div class="wishlist">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+              <div class="off-sale">
+                <span>-30%</span>
+              </div>
+             </div>
+             <div class="cart-box">
+                <p class="product-title">BEING WANTED</p>
+                <p class="product-dec">Men Solid Cotton T-Shirt</p>
+                 <p class="price">Rs. <del>399</del><i class="fa-solid fa-indian-rupee-sign"></i>599</p>
+                <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+               <button>add to cart</button>
+              </div>
+            </div>
+            <!-- product -->
+            <!-- product -->
+            <div class="product-box">
+             <div class="product-detail">
+              <div class="prdt-img"><img src="/assets/images/sale5.jpg" alt=""></div>
+              <div class="wishlist">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+              <div class="off-sale">
+                <span>-70%</span>
+              </div>
+             </div>
+             <div class="cart-box">
+                <p class="product-title">Urban Scottish</p>
+                <p class="product-dec">Comfortable T-Shirt 100% Cotton</p>
+                 <p class="price">Rs. <del>299</del><i class="fa-solid fa-indian-rupee-sign"></i>999</p>
+                <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+               <button>add to cart</button>
+              </div>
+            </div>
+            <!-- product -->
+            <!-- product -->
+            <div class="product-box">
+             <div class="product-detail">
+              <div class="prdt-img"><img src="/assets/images/sale6.jpg" alt=""></div>
+              <div class="wishlist">
+                <span><i class="fa-regular fa-heart"></i></span>
+              </div>
+              <div class="off-sale">
+                <span>-80%</span>
+              </div>
+             </div>
+             <div class="cart-box">
+                <p class="product-title">FitIn OutFit</p>
+                <p class="product-dec">Men Solid Black Track Pants</p>
+                 <p class="price">Rs. <del>399</del><i class="fa-solid fa-indian-rupee-sign"></i>1200</p>
+                <!-- <span>-</span><button>add to cart</button><span>+</span> -->
+               <button>add to cart</button>
+              </div>
+            </div>
+            <!-- product -->
+          </div>
+        </div>
+       </section>
+      <!-- products -->
+     <!-- contact -->
+      <section class="contact-section sectionMb" id="Contact">
+        <div class="container">
+          <div class="section-heading mb-10">
+            <h4>contact</h4>
+            <p>Get in touch</p>
+        </div>
+          <div class="row flex-reverse">
+            <div class="col-6">
+              <div class="row clothing-img contact-img">
+                <div class="col-6"><img src="/assets/images/follow2.webp" alt=""></div>
+                <div class="col-6"><img src="/assets/images/follow6.webp" alt=""></div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="contact-form">
+                <form id="contactForm" method="post">
+                  <div class="form-group">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Shawn Joe" required="">
+                      <div class="error-message" id="nameError"></div>
+                  </div>
+                  <div class="form-group">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required="" >
+                      <div class="error-message" id="emailError"></div>
+                  </div>
+                  <div class="form-group">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" required=""></textarea>
+                      <div class="error-message" id="messageError"></div>
+                  </div>
+                  <div class="contact-btn">
+                      <button type="submit" id="submitButton">Submit</button>
+                  </div>
+                   <div id="formMessage"></div>
+              </form>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+     <!-- contact -->
+     <!-- follow -->
+      <section class="sectionMb">
+        <div class="section-heading mlr-10">
+          <h4>Follow us</h4>
+          <p>Everlane on you</p>
+      </div>
+        <div class="follow-cont">
+         
+          <div class="follow-img"><img src="/assets/images/follow1.webp" alt=""></div>
+          <div class="follow-img"><img src="/assets/images/follow2.webp" alt=""></div>
+          <div class="follow-img"><img src="/assets/images/follow3.webp" alt=""></div>
+          <div class="follow-img"><img src="/assets/images/follow4.webp" alt=""></div>
+          <div class="follow-img"><img src="/assets/images/follow5.webp" alt=""></div>
+          <div class="follow-img"><img src="/assets/images/follow6.webp" alt=""></div>
+          <div class="follow-img"><img src="/assets/images/follow7.webp" alt=""></div>
+        </div>
+      </section>
+     <!-- follow -->
+<footer>
+  <div class="container">
+ <div class="row footer-row">
+  <div class="col-4">
+    <div class="nav-logo footer-logo">
+      <a href="#">MENOL</a>
+      <p>MENOL Where Quality Meets Timeless Elegance and Style</p>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="footer-menu">
+      <ul>
+        <li><a href="#Home"></a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Shop">Shop</a></li>
+        <li><a href="#Categories">Categories</a></li>
+        <!-- <li><a href="#">Orders</a></li> -->
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+ </div>
+  </div>
+  <div class="footer-bootom">
+    <div class="container">
+      <p>Copyright © 2024 Menol. All Rights Reseved.</p>
+    </div>
+  </div>
+</footer>
+
+
+ 
+  </body>
+  <script src="/assets/js/script.js"></script>
+</html>
