@@ -316,7 +316,7 @@ i.fa-solid.fa-heart:after,  .fa-cart-shopping:after {
 header.hero {
     overflow: hidden;
     align-items: center;
-    background: url(assets/images/bg3.webp), #000000;
+    background: url(../images/bg3.webp), #000000;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 11% 0%;
@@ -538,7 +538,7 @@ p.price del {
 /* product */
 /* edd-cit */
 .edd-cit{
-    background: url(assets/images/edd-cit.png);
+    background: url(../images/edd-cit.png);
     overflow: hidden;
 }
 .edd-img img {
